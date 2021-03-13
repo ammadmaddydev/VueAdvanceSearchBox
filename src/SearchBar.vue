@@ -136,7 +136,7 @@ export default {
   },
 }
 </script>
-<style lang="scss">
+<style>
 .searchFieldWrapper {
   width: 100%;
   height: 30px;
