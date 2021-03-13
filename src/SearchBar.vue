@@ -1,5 +1,4 @@
 <template>
-  <div>
     <div class="searchWrapper" :class="addClass" v-click-outside-app="hide">
       <div class="searchFieldWrapper">
         <input type="text" class="searchTerm" :placeholder="placeholder" :value="modelValue"
@@ -33,9 +32,7 @@
         </template>
       </template>
     </div>
-  </div>
 </template>
-
 <script>
 export default {
   name: 'SearchBar',
@@ -139,7 +136,7 @@ export default {
   },
 }
 </script>
-<style>
+<style lang="scss">
 .searchFieldWrapper {
   width: 100%;
   height: 30px;

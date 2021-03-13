@@ -25,7 +25,7 @@
     "Advance Vue Search"
   ],
   "scripts": {
-    "build": "rollup -c rollup.config.js",
+    "build": "rollup -c build/rollup.config.js",
     "serve": "vue-cli-service serve"
   },
   "dependencies": {
@@ -67,5 +67,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "browser": {
+    "./sfc": "src/SearchBar.vue"
+  }
 }
