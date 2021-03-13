@@ -14,7 +14,7 @@
 ### Installation
 
 ```
-npm install
+npm install vue-advance-search-box
 ```
 
 ### Demo Example
