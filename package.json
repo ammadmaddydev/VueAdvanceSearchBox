@@ -1,25 +1,48 @@
 {
-  "name": "vue-advance-search-box",
+  "name": "@ammadbaig10/vue-advance-search-box",
   "version": "0.1.0",
-  "private": true,
+  "description": "Advanced and fully customizable search box",
+  "main": "dist/vue-advance-search-box.umd.js",
+  "module": "dist/vue-advance-search-box.esm.js",
+  "unpkg": "dist/vue-advance-search-box.min.js",
+  "author": "Ammad Baig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammadmaddydev/vue-advance-search-box/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammadmaddydev/vue-advance-search-box.git"
+  },
+  "keywords": [
+    "Vue",
+    "Search Box",
+    "Search",
+    "Advance",
+    "Advance Search",
+    "Vue Search",
+    "Vue advance search box",
+    "Advance Vue Search"
+  ],
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "rollup -c rollup.config.js",
+    "serve": "vue-cli-service serve"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^3.0.0",
-    "vue-click-outside": "^1.1.0"
+    "vue": "^3.0.7"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.7",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0-0"
+    "eslint-plugin-vue": "^7.0.0-0",
+    "rollup": "^2.41.2",
+    "rollup-plugin-vue": "^6.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -35,6 +58,11 @@
     },
     "rules": {}
   },
+  "files": [
+    "dist/*",
+    "src/*"
+  ],
+  "homepage": "https://github.com/ammadmaddydev/vue-advance-search-box#readme",
   "browserslist": [
     "> 1%",
     "last 2 versions",
