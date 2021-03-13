@@ -1,6 +1,6 @@
 {
   "name": "@ammadbaig10/vue-advance-search-box",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Advanced and fully customizable search box",
   "main": "dist/vue-advance-search-box.umd.js",
   "module": "dist/vue-advance-search-box.esm.js",
